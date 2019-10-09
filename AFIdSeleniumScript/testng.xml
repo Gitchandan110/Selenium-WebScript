@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+    name="Suite"
+    verbose="1" >
+
+    <listeners>
+
+        <listener class-name="com.ExtentReportListner.ExtentReporterNG" />
+    </listeners>
+
+    <test name="LoginSafetyKuvrr" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.LoginSafetyKuvrr" />
+        </classes>
+    </test>
+
+    <test name="SafetyKuvrrBroadcast" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.SafetyKuvrrBroadcast" />
+        </classes>
+    </test>
+
+    <test name="SafetyKuvrrHomePageMenu" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.SafetyKuvrrHomePageMenu" />
+        </classes>
+    </test>
+
+    <test name="SafetyKuvrrOpenIncident" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.SafetyKuvrrOpenIncident" />
+        </classes>
+    </test>
+
+    <test name="HomeAmazon" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.HomeAmazon" />
+        </classes>
+    </test>
+
+    <test name="LoginAmazon" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.LoginAmazon" />
+        </classes>
+    </test>
+
+    <test name="MakeMyTripHomePage" >
+
+        <classes>
+
+            <class name="com.TestNGScript.file.MakeMyTripHomePage" />
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26141" started-at="2019-10-09T09:11:28Z" finished-at="2019-10-09T09:11:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26141" started-at="2019-10-09T09:11:28Z" finished-at="2019-10-09T09:11:54Z">
+      <class name="com.TestNGScript.file.LoginSafetyKuvrr">
+        <test-method status="PASS" signature="launchSK()[pri:0, instance:com.TestNGScript.file.LoginSafetyKuvrr@25359ed8]" name="launchSK" is-config="true" duration-ms="21075" started-at="2019-10-09T09:11:28Z" finished-at="2019-10-09T09:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSK -->
+        <test-method status="PASS" signature="loginSafetyKuvrr()[pri:0, instance:com.TestNGScript.file.LoginSafetyKuvrr@25359ed8]" name="loginSafetyKuvrr" duration-ms="4170" started-at="2019-10-09T09:11:49Z" finished-at="2019-10-09T09:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSafetyKuvrr -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.TestNGScript.file.LoginSafetyKuvrr@25359ed8]" name="closeBrowser" is-config="true" duration-ms="863" started-at="2019-10-09T09:11:53Z" finished-at="2019-10-09T09:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.TestNGScript.file.LoginSafetyKuvrr -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
